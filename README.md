@@ -16,6 +16,10 @@ The workflow demonstrates how pretrained biological transformers can generate la
 - Perform representation learning for cancer immunology
 - Investigate zero-shot biological transfer learning
 
+## Project Workflow
+
+![Workflow](images/workflow.png)
+
 ---
 
 ## Technologies Used
