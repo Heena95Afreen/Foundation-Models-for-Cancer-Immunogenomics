@@ -21,7 +21,23 @@ The workflow demonstrates how pretrained biological transformers can generate la
 ![Workflow](images/workflow.png)
 
 ---
+## OR
 
+TCGA/GTEx RNA-seq
+        ↓
+Preprocessing
+        ↓
+RNA Foundation Model
+        ↓
+Embedding Generation
+        ↓
+Clustering
+        ↓
+UMAP Visualisation
+        ↓
+Immune Phenotype Discovery
+
+---
 ## Technologies Used
 
 - Python
