@@ -4,7 +4,7 @@
 
 This repository demonstrates a transcriptomic representation learning workflow for discovering latent immune-related phenotypes from cancer and normal tissue RNA-seq data.
 
-The project explores how transcriptomic embeddings generated from gene expression profiles can be used for unsupervised biological pattern discovery, cluster identification, and visualization of transcriptomic heterogeneity.
+The project explores how transcriptomic embeddings generated from gene expression profiles can be used for unsupervised biological pattern discovery, cluster identification, and visualisation of transcriptomic heterogeneity.
 
 ## Research Question
 
@@ -56,7 +56,7 @@ KMeans Clustering
 
 ↓
 
-UMAP Visualization
+UMAP Visualisation
 
 ↓
 
@@ -121,13 +121,19 @@ Nine latent transcriptomic clusters were identified from transcriptomic embeddin
 
 ### UMAP Visualization
 
+![UMAP](images/UMAP_Transcriptomic_Clusters.png)
+
 UMAP revealed clear separation between multiple transcriptomic phenotypes, indicating that biologically meaningful structure exists within the expression space.
 
 ### Cluster Distribution
 
+![Cluster Distribution](images/Cluster_Distribution.png)
+
 Cluster sizes varied across the dataset, suggesting heterogeneous transcriptomic populations.
 
 ### Gene Driver Analysis
+
+![Heatmap](images/Top_Genes_Heatmap.png)
 
 Cluster-specific gene expression patterns were observed, indicating potential biological and immune-related heterogeneity among samples.
 
@@ -191,58 +197,3 @@ Planned extensions:
 Heena Afreen
 
 Bioinformatics | Computational Biology | AI in Genomics | Cancer Immunogenomics
-
-
-## Project Workflow
-
-![Workflow](images/workflow.png)
-
----
-
-
----
-
-
----
-
-
-
----
-
-
-
-
-
----
-
-
-
----
-
-
-
----
-
-## Workflow
-
-![Workflow](images/workflow.png)
-
-## Results
-
-### UMAP Visualization
-
-![UMAP](images/UMAP_Transcriptomic_Clusters.png)
-
-### Cluster Distribution
-
-![Cluster Distribution](images/Cluster_Distribution.png)
-
-### Top Gene Drivers
-
-![Heatmap](images/Top_Genes_Heatmap.png)
-
-
-
-
-
-
