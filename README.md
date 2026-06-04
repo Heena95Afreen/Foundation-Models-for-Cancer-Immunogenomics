@@ -115,8 +115,30 @@ The workflow supports emerging applications in:
 
 ---
 
+## Workflow
+
+![Workflow](images/workflow.png)
+
+## Results
+
+### UMAP Visualization
+
+![UMAP](images/UMAP_Transcriptomic_Clusters.png)
+
+### Cluster Distribution
+
+![Cluster Distribution](images/Cluster_Distribution.png)
+
+### Top Gene Drivers
+
+![Heatmap](images/Top_Genes_Heatmap.png)
+
 ## Author
 
 Heena Afreen
 
 Bioinformatics | Computational Biology | AI in Genomics | Cancer Immunogenomics
+
+git add .
+git commit -m "Added transcriptomic embedding visualizations"
+git push
