@@ -1,20 +1,17 @@
-# Foundation Models for Cancer Immunogenomics
+# Foundation Model-Based Discovery of Immune Phenotypes in Cancer Transcriptomes
 
 ## Overview
 
-This project explores transformer-based biological representation learning using scGPT foundation models for immune phenotype characterisation in transcriptomic cancer datasets.
-
-The workflow demonstrates how pretrained biological transformers can generate latent cellular embeddings for downstream immunogenomics analysis and precision medicine research.
+This repository demonstrates a baseline transcriptomic representation learning workflow using dimensionality reduction and clustering methods.
 
 ---
 
 ## Research Objectives
 
-- Learn biological representations using transformer foundation models
-- Analyse immune-related transcriptomic phenotypes
-- Explore latent cellular embedding spaces
-- Perform representation learning for cancer immunology
-- Investigate zero-shot biological transfer learning
+Generate transcriptomic embeddings.
+Identify latent biological clusters.
+Visualize transcriptomic structure.
+Characterize immune-related phenotypes.
 
 ## Project Workflow
 
@@ -133,12 +130,29 @@ The workflow supports emerging applications in:
 
 ![Heatmap](images/Top_Genes_Heatmap.png)
 
+
+# Results
+
+## Optimal Cluster Number
+
+Silhouette Analysis selected:
+
+K = 9
+
+Best Silhouette Score = 0.171
+
+## Findings
+
+Nine latent transcriptomic phenotypes were identified.
+
+UMAP demonstrated clear separation between biological clusters.
+
+Several clusters exhibited distinct gene expression signatures,
+suggesting potential immune-related heterogeneity.
 ## Author
 
 Heena Afreen
 
 Bioinformatics | Computational Biology | AI in Genomics | Cancer Immunogenomics
 
-git add .
-git commit -m "Added transcriptomic embedding visualizations"
-git push
+
